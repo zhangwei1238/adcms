@@ -1,0 +1,17 @@
+/* CSS Document */
+#box_nav{_margin-top:16px;}
+table {border-collapse:collapse; margin:0; padding:0;}
+.menu ul li a.hide, .menu ul li a:visited.hide {display:none;}
+.menu ul li a:hover ul li a.hide {display:none;}
+.menu ul li a, .menu ul li a:visited {display:block;float:left;width:97px;text-decoration:none;line-height:20px;color:#333;text-align:left;}
+.menu ul li a .iejz{display:block; text-align:center;height:36px; padding-top:6px;}
+.menu ul li a:hover .iejz{ background:url(../images/nav1.jpg) left top no-repeat;}
+.menu ul li a .ywzt {font-size: 12px;color: #78650d;line-height: 16px;}
+.menu ul li a:hover .ywzt {color: #fff;}
+
+.menu ul li a:hover .ywzt {color: #fff;}
+.menu ul li a:hover {color:#fff;background: none;}
+.menu ul li a:hover ul {display:block; position:absolute; width:97px; top:44px; background:#0195d3; color:#fff; padding:10px 0;}
+.menu ul li a:hover ul li {background:none; width:97px; }
+.menu ul li a:hover ul li a {display:block;background:none;color:#fff;width:97px;font-size:12px; padding:0px; line-height:28px; height:28px;text-align:center;}
+.menu ul li a:hover ul li a:hover {background:#fff;color:#0195d3;}

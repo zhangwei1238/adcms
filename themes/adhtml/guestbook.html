@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{$media.title}</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="copyright" content="">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/guestbook.css">
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="bookmark" href="/favicon.ico" />
+</head>
+<body>
+	<!--#include file="header.html"-->
+	<div id="big_bg">
+		<img src="images/bg4.jpg" alt="message_us">
+	</div>
+	<div id="about">
+		<span class="aboutus">留言板</span>
+		<span class="aboutus2">&nbsp;/MESSAGE&nbsp;BOARD</span>
+		<div class="m-gb-form">
+			<form action="{U('DuxCms/Form/push')}" method="post" AutoComplete="off" >
+				<div class="m-form"> 
+                	<div class="formitm">
+                        <label class="lab">昵称：</label>
+                        <div class="ipt">
+                            <input type="text" name="name" class="u-ipt" />
+                        </div>
+                    </div>
+					<div class="formitm">
+                        <label class="lab">电话：</label>
+                        <div class="ipt">
+                            <input name="tel" type="text" class="u-ipt" id="email" />
+                        </div>
+                    </div>
+                    <div class="formitm">
+                        <label class="lab">邮箱：</label>
+                        <div class="ipt">
+                            <input name="email" type="text" class="u-ipt" id="email" />
+                        </div>
+                    </div>
+                    <div class="formitm">
+                        <label class="lab lab1">内容：</label>
+                        <div class="ipt">
+                          <textarea name="content" class="u-tta u-tta-6" id="content" cols="50" rows="5"></textarea>
+                        </div>
+                    </div>
+					<div class="formitm formitm-1">
+                    	<input name="table" type="hidden" value="guestbook">
+                        <input name="token" type="hidden" value=' <!--echo{ app="DuxCms" label="formToken" table="guestbook" }--> '>
+						<button class="u-btn" type="submit"><img src="images/but.png"></button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!--#include file="footer.html"-->
+</body>
+</html>
+	

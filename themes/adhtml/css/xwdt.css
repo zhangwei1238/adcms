@@ -1,0 +1,64 @@
+.banner{
+	width:1200px;
+	height: 400px;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+.banner img{
+	width:1200px;
+	height: 400px;
+}
+#core_business{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	margin-bottom:30px;
+}
+.business{
+	color:rgba(76, 176, 80, 0.866667);
+	font-size:36px;
+}
+.business_span{
+	width:1200px;
+	color:rgb(153,153,153);
+	font-size:23px;
+	border-bottom:1px solid #222222;
+	padding-bottom:10px;
+}
+.news{
+	width:1200px;
+	margin:0 auto;
+}
+.newsone{
+	width:535px;
+	height:130px;
+	border:1px dashed rgb(153,153,153);
+	float:left;
+	margin-right:60px;
+	margin-top:10px;
+	
+}
+.img{
+	width:135px;
+	height:90px;
+	float:left;
+	margin:20px 0px;
+}
+.text{
+	width:370px;
+	height:90px;
+	font-size:13px;
+	float:left;
+	margin:20px 10px;
+}
+.text span{
+	font-size: 16px;
+	color: #399ec3;
+}
+.page{
+	clear:both;
+	text-align:right;
+	margin:0 auto;
+	padding-top:10px;
+	padding-right:70px;
+}

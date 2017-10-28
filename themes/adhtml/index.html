@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{$media.title}</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="copyright" content="">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="bookmark" href="/favicon.ico" />
+ 
+</head>
+
+<body>
+	<!--#include file="header.html"-->
+ 
+	<div class="banner" id="thumbnail">
+		<ul>
+			<li><a><img src="images/hot2.jpg"></a></li>
+			<li><a><img src="images/hot1.jpg"></a></li>
+			<li><a><img src="images/hot3.jpg"></a></li>
+			<li><a><img src="images/hot4.jpg"></a></li>
+		</ul>
+	</div>
+	<div id="core_business">
+		
+		<!--list{app="DuxCms" label="categoryList" class_id="2"}-->
+			<a href="{$list.curl}"><span class="business">CORE BUSINESS</span></a>
+		<!--{/list}-->
+		<br/>
+		<span class="business_span">—   专业本土广告综合服务商  —</span>
+		<table class="business_table">
+			<tr>
+			<!--list{app="DuxCms" label="formList" table="indexfive" limit=5}-->
+				<td><img  src="{$list.image}" title="{$list.title}" alt="picture"></td>
+			<!--{/list}-->
+			</tr>
+		
+			<tr class="tr1">
+			<!--list{app="DuxCms" label="formList" table="indexfive" limit=5}-->
+				<td><span>{$list.title}</span></td>
+			<!--{/list}-->
+			</tr>
+			<tr class="tr2">
+			<!--list{app="DuxCms" label="formList" table="indexfive" limit=5}-->
+				<td><span>{$list.se_title}</span></td>
+			<!--{/list}-->
+			</tr>
+		
+		</table>
+	</div>
+	<div id="about">
+		<span class="aboutus">我们的服务</span>
+		<span class="aboutus2">&nbsp;/OURS&nbsp;SERVICE</span>
+		<table class="aboutus3">
+			<tr>
+			<!--list{app="DuxCms" label="formList" table="category" limit=16}-->
+				<td> {$list.category_name}</td>
+			<!--{/list}-->		
+			</tr>
+		</table>
+		<div class="aboutus4" >
+			<ul>
+			<!--list{app="DuxCms" label="formList" table="indexpic" limit=20}-->
+				<li><img  src="{$list.image}" title="{$list.title}" alt="picture"></li>
+			<!--{/list}-->
+			</ul>
+		</div>	
+	</div>
+	<div id="core_business1">
+		
+		<!--list{app="DuxCms" label="categoryList" class_id="6"}-->
+			<a href="{$list.curl}"><span class="business1">新闻资讯</span></a>
+		<!--{/list}-->
+		<br/>
+		<div class="business_span1">—   关于广告技术的新闻热点  —</div>
+	</div>
+	<div class="news1">
+		<!--vo{app="DuxCms" label="contentList" class_id="6" limit="10"}-->
+		<div class="newsone1">
+			<div class="img1">	
+				<a href="{$vo.aurl}"><img src="{$vo.image}" alt="picture" title="{$vo.titile}" width="135px" height="91px"></a>
+			</div>
+			<div class="text1">
+				<a href="{$list.aurl}"><span>{len($vo.title,21)}</span></a>
+				<p>{len($vo.description,70)}...</p>
+			</div>
+		</div>
+		<!--{/list}-->
+	<div class="page1">  </div>
+	</div>
+	
+ 
+	<!--#include file="footer.html"-->
+</body>
+
+<script>
+    $('.banner').terseBanner();
+	
+	/*缩略图形式
+	$('#thumbnail').terseBanner({
+		btn: false,
+		thumb: {
+			width: 150,
+			height: 84,
+			gap: 4,
+			visible: 3
+		}
+	});*/
+
+	$(".aboutus4").kxbdMarquee({isEqual:true,loop:0,direction:"left",scrollAmount:1,scrollDelay:30});
+
+</script>
+</html>
+	

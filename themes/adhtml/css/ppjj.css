@@ -1,0 +1,46 @@
+#big_bg{
+	width:1200px;
+	height: 400px;
+	margin:0 auto;
+	margin-bottom:50px;
+	
+}
+#big_bg img{
+	width:1200px;
+	height: 400px;
+	 
+}
+#about{
+	width:1200px;
+	height:310px;
+	margin:0 auto;
+}
+
+.aboutus{
+	color:rgb(51, 51, 51);
+	font-size:23px;
+}
+.aboutus2{
+	color:rgb(153,153,153);
+	font-size:23px;
+}
+.aboutpic{
+	margin-top:30px;
+	width:300px;
+	height:180px;
+	float:left;
+} 
+.aboutcontent{
+	width:700px;
+	word-wrap: break-word;
+	word-break: break-all;
+	font-size: 15px;
+	text-align: left;
+	color: rgb(103, 103, 103);
+	line-height: 30px;
+	font-family: "微软雅黑";
+	float:left;
+	margin:0 auto;
+	margin-top:20px;
+	margin-left:10px;
+}

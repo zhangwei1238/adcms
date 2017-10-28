@@ -1,0 +1,85 @@
+#big_bg{
+	width:1200px;
+	height: 400px;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+#big_bg img{
+	width:1200px;
+	height: 400px;	 
+}
+#about{
+	width:1200px;
+	height:270px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.aboutus{
+	color:rgb(99, 180, 210);
+	font-size:30px;
+}
+.aboutus2{
+	color:rgb(153,153,153);
+	font-size:23px;
+}
+.aboutus3{
+	width:1200px;
+	margin:0 auto;
+	color:#666666;
+	text-align:center;
+	font-size:13px;
+	border-bottom:1px solid rgb(102,102,102);
+}
+.aboutus4{
+	width:1190px;
+	height:160px;
+	overflow:hidden;
+	margin-top:10px;
+	
+}
+
+.aboutus4 ul li{
+	float:left; 
+	padding:0 5px;
+}
+
+.aboutus4 ul li img{
+	width:236px;
+	height:160px;
+	display:block;
+}
+#cases{
+	width:1200px;
+	margin:0 auto;
+}
+.case_title_div{
+	width:1200px;
+	height:40px;
+	border-bottom:1px solid #076ce0;
+	margin-bottom:10px;
+	margin-top:40px;
+}
+.case_title{
+	padding:15px; 
+	color:rgb(255,255,255);
+	font-size:16px;
+	background-color:#076ce0;
+	border-radius:2em;
+}
+.case_imgs{
+	width:180px;
+	height:170px;
+	float:left;
+	margin-right:15px;
+	margin-top:20px;
+}
+.case_imgs img{
+	width:180px;
+	height:135px;
+	border:1px solid #076ce0;
+}
+.clear1{
+	clear:both;
+}
+

@@ -1,0 +1,60 @@
+#box_nav {
+	FLOAT: right; MARGIN-TOP: 25px; WIDTH: 612px
+}
+.menu {
+	FONT-SIZE: 14px; POSITION: relative; WIDTH: 100%
+}
+.menu UL {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.menu UL LI {
+	CURSOR: pointer; BACKGROUND: url(../images/nav2.jpg) no-repeat 97px center; POSITION: relative; FLOAT: left; WIDTH: 102px; _position: static
+}
+.menu UL LI A {
+	HEIGHT: 38px; FLOAT: left; COLOR: #333; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 6px; PADDING-LEFT: 0px; TEXT-DECORATION: none; DISPLAY: block; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; WIDTH: 97px
+}
+.menu UL LI A:visited {
+	HEIGHT: 38px; FLOAT: left; COLOR: #333; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 6px; PADDING-LEFT: 0px; TEXT-DECORATION: none; DISPLAY: block; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; WIDTH: 97px
+}
+.menu UL LI A:hover {
+	BACKGROUND: url(../images/nav1.jpg) no-repeat left top; COLOR: #fff
+}
+.menu UL LI.jgts {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.menu UL LI A .ywzt {
+	FONT-SIZE: 12px; COLOR: #78650d; LINE-HEIGHT: 16px
+}
+.menu UL LI A:hover .ywzt {
+	COLOR: #fff
+}
+.menu UL LI:hover {
+	BACKGROUND: url(../images/nav1.jpg) no-repeat left top
+}
+.menu UL LI:hover A {
+	COLOR: #ffffff
+}
+.menu UL LI:hover .ywzt {
+	COLOR: #fff
+}
+.menu UL LI UL {
+	DISPLAY: none ;z-index:999;
+}
+.menu UL LI:hover UL {
+	BACKGROUND: #0195d3; POSITION: absolute; COLOR: #fff; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; LEFT: 0px; DISPLAY: block; TOP: 44px; PADDING-RIGHT: 0px; WIDTH: 97px
+}
+.menu UL LI:hover UL LI A.hide {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #fff
+}
+.menu UL LI:hover UL LI:hover A.hide {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #fff
+}
+.menu UL LI:hover UL LI {
+	WIDTH: 100%
+}
+.menu UL LI:hover UL LI A {
+	FONT-SIZE: 12px; HEIGHT: 28px; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; DISPLAY: block; LINE-HEIGHT: 28px; PADDING-RIGHT: 0px; WIDTH: 97px
+}
+.menu UL LI:hover UL LI A:hover {
+	BACKGROUND: #fff; COLOR: #0195d3
+}
